@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+geckodriver.log
+.cache
+*.class
+lib/*
+.idea/*
