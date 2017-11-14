@@ -19,8 +19,10 @@ public class TestSelenium extends PageBase{
     }
 
     @Test
-    public void firstTest(){
+    public void CreateNewProject(){
         loginPage().DoLogin("admin","admin");
+        projectsPage().Navigate();
+        projectsPage().Add( "new project", "test note");
     }
 
 }
